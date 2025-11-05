@@ -6,7 +6,7 @@ Play against your friend and see who gets three in a row first — X or O!
 ---
 
 ## 🚀 Live Demo  
-👉 [Click here to play]()  
+👉 [Click here to play](https://kalyani-377.github.io/Tic-tac-toe/)  
  
 ---
 

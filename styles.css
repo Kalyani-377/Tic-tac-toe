@@ -1,0 +1,101 @@
+ /* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and hide scroll */
+body {
+    background-color: #eff2ef;
+    overflow: hidden;
+}
+
+/* Center all content inside main */
+main {
+    text-align: center;
+}
+
+/* Style for heading */
+.h1 {
+    text-align: center;
+    margin: 90px 5rem auto 6rem;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+/* Outer box for the game */
+.container {
+    height: 50vh;
+    width: 50vw;
+    margin: 20px auto;
+}
+
+/* Game grid (3x3 layout) */
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9px;
+    border-radius: 10px;
+}
+
+/* Each box in the game */
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    color: #42a5f5;
+    background-color: #cce3de;
+    border: 2px solid black;
+}
+
+/* Reset button */
+#reset-btn {
+    text-align: center;
+    margin: 50px auto auto 30px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: #eaf4f4;
+    cursor: pointer;
+}
+
+/* Message area */
+.msg-container {
+    text-align: center;
+    margin: auto;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* New game button */
+#new-btn {
+    text-align: center;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: #eaf4f4;
+    cursor: pointer;
+}
+
+/* Message text */
+#msg {
+    color: #3ab298;
+    padding-top: 170px;
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+/* Hide elements */
+.hide {
+    display: none;
+}
